@@ -7,7 +7,7 @@ const { Pool } = require('pg');
 const app = express();
 const pool = new Pool({
   user: 'postgres',            // <-- ajuste aqui
-  password: 'senai',        // <-- ajuste aqui
+  password: 'VitorManasses',        // <-- ajuste aqui
   host: 'localhost',
   port: 5432,
   database: 'saep_db',         // banco exigido pela prova
